@@ -5,9 +5,4 @@ export default defineConfig({
   plugins: [react({
     include: ['**/*.js', '**/*.jsx'],
   })],
-  root: 'public',
-  build: {
-    outDir: '../dist',
-    emptyOutDir: true,
-  }
 })
